@@ -1,76 +1,397 @@
 ![Farmers Market Finder Demo](demo/demo.gif)
 
-'adventure', 
-'air_raid', 
-'alien', ‘
-amidar', 
-‘assault',
- ‘asterix',
- ‘asteroids',
- ‘atlantis',
- ‘bank_heist',
- ‘battle_zone',
- ‘beam_rider',
- 'berzerk', 
-'bowling', 
-‘boxing',
- ‘breakout',
- 'carnival', 
-‘centipede',
- ‘chopper_command',
- 'crazy_climber', 
-'defender', 
-‘demon_attack',
- 'double_dunk', 
-'elevator_action', 
-‘enduro',
- ‘fishing_derby',
- ‘freeway’,
-Goal: Chicken wants to cross the rod
-Movements: [NOOP, UP, DOWN]
-Image: 
+How do I find out which number corresponds to which action in OpenAI gym's atari environments? I spent way too long looking this up, so I decided to provide the info here: 
 
 
+ For the environment:
+AdventureNoFrameskip-v4
+Could not open ../envImages/AdventureNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
 
+ For the environment:
+AirRaidNoFrameskip-v4
+Could not open ../envImages/AirRaidNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'RIGHT', 'LEFT', 'RIGHTFIRE', 'LEFTFIRE']
 
+ For the environment:
+AlienNoFrameskip-v4
+Could not open ../envImages/AlienNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
 
+ For the environment:
+AmidarNoFrameskip-v4
+Could not open ../envImages/AmidarNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE']
 
+ For the environment:
+AssaultNoFrameskip-v4
+Could not open ../envImages/AssaultNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'RIGHTFIRE', 'LEFTFIRE']
 
+ For the environment:
+AsterixNoFrameskip-v4
+Could not open ../envImages/AsterixNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT']
 
+ For the environment:
+AsteroidsNoFrameskip-v4
+Could not open ../envImages/AsteroidsNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE']
 
- ‘frostbite',
- ‘gopher',
- ‘gravitar',
- 'hero', 
-‘ice_hockey',
- ‘jamesbond',
- ‘journey_escape',
- 'kaboom', 'kangaroo', 
-‘krull',
- ‘kung_fu_master',
- 'montezuma_revenge', 
-‘ms_pacman',
- ‘name_this_game',
- 'phoenix', 
-'pitfall', 
-‘pong',
- ‘pooyan',
- ‘private_eye',
- ‘qbert',
- ‘riverraid',
- 'road_runner', 
-‘robotank',
- ‘seaquest',
- ‘skiing'
-, ‘solaris',
- ‘space_invaders',
- ‘star_gunner',
- ‘tennis',
- ‘time_pilot',
- 'tutankham', 
-‘up_n_down',
- ‘venture',
- ‘video_pinball',
- ‘wizard_of_wor',
- ‘yars_revenge',
- 'zaxxon
+ For the environment:
+AtlantisNoFrameskip-v4
+Could not open ../envImages/AtlantisNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'RIGHTFIRE', 'LEFTFIRE']
+
+ For the environment:
+BankHeistNoFrameskip-v4
+Could not open ../envImages/BankHeistNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
+
+ For the environment:
+BattleZoneNoFrameskip-v4
+Could not open ../envImages/BattleZoneNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
+
+ For the environment:
+BeamRiderNoFrameskip-v4
+Could not open ../envImages/BeamRiderNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'UPRIGHT', 'UPLEFT', 'RIGHTFIRE', 'LEFTFIRE']
+
+ For the environment:
+BerzerkNoFrameskip-v4
+Could not open ../envImages/BerzerkNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
+
+ For the environment:
+BowlingNoFrameskip-v4
+Could not open ../envImages/BowlingNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'DOWN', 'UPFIRE', 'DOWNFIRE']
+
+ For the environment:
+BoxingNoFrameskip-v4
+Could not open ../envImages/BoxingNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
+
+ For the environment:
+BreakoutNoFrameskip-v4
+Could not open ../envImages/BreakoutNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'RIGHT', 'LEFT']
+
+ For the environment:
+CarnivalNoFrameskip-v4
+Could not open ../envImages/CarnivalNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'RIGHT', 'LEFT', 'RIGHTFIRE', 'LEFTFIRE']
+
+ For the environment:
+CentipedeNoFrameskip-v4
+Could not open ../envImages/CentipedeNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
+
+ For the environment:
+ChopperCommandNoFrameskip-v4
+Could not open ../envImages/ChopperCommandNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
+
+ For the environment:
+CrazyClimberNoFrameskip-v4
+Could not open ../envImages/CrazyClimberNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT']
+
+ For the environment:
+DemonAttackNoFrameskip-v4
+Could not open ../envImages/DemonAttackNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'RIGHT', 'LEFT', 'RIGHTFIRE', 'LEFTFIRE']
+
+ For the environment:
+DoubleDunkNoFrameskip-v4
+Could not open ../envImages/DoubleDunkNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
+
+ For the environment:
+ElevatorActionNoFrameskip-v4
+Could not open ../envImages/ElevatorActionNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
+
+ For the environment:
+EnduroNoFrameskip-v4
+Could not open ../envImages/EnduroNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'RIGHT', 'LEFT', 'DOWN', 'DOWNRIGHT', 'DOWNLEFT', 'RIGHTFIRE', 'LEFTFIRE']
+
+ For the environment:
+FishingDerbyNoFrameskip-v4
+Could not open ../envImages/FishingDerbyNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
+
+ For the environment:
+FreewayNoFrameskip-v4
+Could not open ../envImages/FreewayNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'UP', 'DOWN']
+
+ For the environment:
+FrostbiteNoFrameskip-v4
+Could not open ../envImages/FrostbiteNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
+
+ For the environment:
+GopherNoFrameskip-v4
+Could not open ../envImages/GopherNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE']
+
+ For the environment:
+GravitarNoFrameskip-v4
+Could not open ../envImages/GravitarNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
+
+ For the environment:
+HeroNoFrameskip-v4
+Could not open ../envImages/HeroNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
+
+ For the environment:
+IceHockeyNoFrameskip-v4
+Could not open ../envImages/IceHockeyNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
+
+ For the environment:
+JamesbondNoFrameskip-v4
+Could not open ../envImages/JamesbondNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
+
+ For the environment:
+JourneyEscapeNoFrameskip-v4
+Could not open ../envImages/JourneyEscapeNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
+
+ For the environment:
+KangarooNoFrameskip-v4
+Could not open ../envImages/KangarooNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
+
+ For the environment:
+KrullNoFrameskip-v4
+Could not open ../envImages/KrullNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
+
+ For the environment:
+KungFuMasterNoFrameskip-v4
+Could not open ../envImages/KungFuMasterNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'DOWNRIGHT', 'DOWNLEFT', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
+
+ For the environment:
+MontezumaRevengeNoFrameskip-v4
+Could not open ../envImages/MontezumaRevengeNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
+
+ For the environment:
+MsPacmanNoFrameskip-v4
+Could not open ../envImages/MsPacmanNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT']
+
+ For the environment:
+NameThisGameNoFrameskip-v4
+Could not open ../envImages/NameThisGameNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'RIGHT', 'LEFT', 'RIGHTFIRE', 'LEFTFIRE']
+
+ For the environment:
+PhoenixNoFrameskip-v4
+Could not open ../envImages/PhoenixNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'RIGHT', 'LEFT', 'DOWN', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE']
+
+ For the environment:
+PitfallNoFrameskip-v4
+Could not open ../envImages/PitfallNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
+
+ For the environment:
+PongNoFrameskip-v4
+Could not open ../envImages/PongNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'RIGHT', 'LEFT', 'RIGHTFIRE', 'LEFTFIRE']
+
+ For the environment:
+PooyanNoFrameskip-v4
+Could not open ../envImages/PooyanNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'DOWN', 'UPFIRE', 'DOWNFIRE']
+
+ For the environment:
+PrivateEyeNoFrameskip-v4
+Could not open ../envImages/PrivateEyeNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
+
+ For the environment:
+QbertNoFrameskip-v4
+Could not open ../envImages/QbertNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN']
+
+ For the environment:
+RiverraidNoFrameskip-v4
+Could not open ../envImages/RiverraidNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
+
+ For the environment:
+RoadRunnerNoFrameskip-v4
+Could not open ../envImages/RoadRunnerNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
+
+ For the environment:
+RobotankNoFrameskip-v4
+Could not open ../envImages/RobotankNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
+
+ For the environment:
+SeaquestNoFrameskip-v4
+Could not open ../envImages/SeaquestNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
+
+ For the environment:
+SkiingNoFrameskip-v4
+Could not open ../envImages/SkiingNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'RIGHT', 'LEFT']
+
+ For the environment:
+SolarisNoFrameskip-v4
+Could not open ../envImages/SolarisNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
+
+ For the environment:
+SpaceInvadersNoFrameskip-v4
+Could not open ../envImages/SpaceInvadersNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'RIGHT', 'LEFT', 'RIGHTFIRE', 'LEFTFIRE']
+
+ For the environment:
+StarGunnerNoFrameskip-v4
+Could not open ../envImages/StarGunnerNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
+
+ For the environment:
+TennisNoFrameskip-v4
+Could not open ../envImages/TennisNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
+
+ For the environment:
+TimePilotNoFrameskip-v4
+Could not open ../envImages/TimePilotNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE']
+
+ For the environment:
+TutankhamNoFrameskip-v4
+Could not open ../envImages/TutankhamNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE']
+
+ For the environment:
+UpNDownNoFrameskip-v4
+Could not open ../envImages/UpNDownNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'DOWN', 'UPFIRE', 'DOWNFIRE']
+
+ For the environment:
+VentureNoFrameskip-v4
+Could not open ../envImages/VentureNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
+
+ For the environment:
+VideoPinballNoFrameskip-v4
+Could not open ../envImages/VideoPinballNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE']
+
+ For the environment:
+WizardOfWorNoFrameskip-v4
+Could not open ../envImages/WizardOfWorNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE']
+
+ For the environment:
+YarsRevengeNoFrameskip-v4
+Could not open ../envImages/YarsRevengeNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
+
+ For the environment:
+ZaxxonNoFrameskip-v4
+Could not open ../envImages/ZaxxonNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
+(HLenv) byrdsmyth@ByrdPro HIGHLIGHTS-LRP-master % Could not open ../envImages/VentureNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
+
+ For the environment:
+VideoPinballNoFrameskip-v4
+Could not open ../envImages/VideoPinballNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE']
+
+ For the environment:
+WizardOfWorNoFrameskip-v4
+Could not open ../envImages/WizardOfWorNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE']
+
+ For the environment:
+YarsRevengeNoFrameskip-v4
+Could not open ../envImages/YarsRevengeNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
+
+ For the environment:
+ZaxxonNoFrameskip-v4
+Could not open ../envImages/ZaxxonNoFrameskip-v4.png for writing
+Available actions are:
+['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
