@@ -224,6 +224,20 @@ MsPacmanNoFrameskip-v4
 Could not open ../envImages/MsPacmanNoFrameskip-v4.png for writing
 Available actions are:
 ['NOOP', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT']
+Rewards are: 
+ Dot - 10
+ Energy Pill (Power Pill) - 50
+ Cherry - 100
+ Strawberry - 200 
+ Orange - 500
+ Pretzel - 700
+ Apple - 1,000
+ Pear - 2,000
+ Banana - 5,000
+ 1st Blue Ghost - 200
+ 2nd Blue Ghost - 400
+ 3rd Blue Ghost - 800
+ 4th Blue Ghost - 1,600
 
  For the environment:
 NameThisGameNoFrameskip-v4
