@@ -152,6 +152,8 @@ FreewayNoFrameskip-v4
 Could not open ../envImages/FreewayNoFrameskip-v4.png for writing
 Available actions are:
 ['NOOP', 'UP', 'DOWN']
+Rewards are:
+Reach the other side - 1
 
  For the environment:
 FrostbiteNoFrameskip-v4
