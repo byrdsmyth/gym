@@ -389,6 +389,13 @@ TimePilotNoFrameskip-v4
 Could not open ../envImages/TimePilotNoFrameskip-v4.png for writing
 Available actions are:
 ['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE']
+ Points:
+Eiminate enemy plane or saucer: 100
+Eiminate dirigible: 3000
+Eiminate Heavy Bomber: 3000
+Eiminate dirigible: 3000
+Eiminate double-prop helicopter: 3000
+Eiminate saucer carrier: 3000
 
  For the environment:
 TutankhamNoFrameskip-v4
