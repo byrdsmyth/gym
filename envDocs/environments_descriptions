@@ -56,6 +56,24 @@ BankHeistNoFrameskip-v4
 Could not open ../envImages/BankHeistNoFrameskip-v4.png for writing
 Available actions are:
 ['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
+ SCORING:
+Bank Values:
+First Bank =            $10.00          Sixth Bank =            $60.00
+Second Bank =   $20.00          Seventh Bank =  $70.00
+Third Bank =    $30.00          Eighth Bank =   $80.00
+Fourth Bank =   $40.00          Ninth Bank =    $90.00
+Fifth Bank =            $50.00
+
+Cop Car Values:
+One Cop Car in pursuit =        $10.00          Three Cop Cars in pursuit = $50.00
+Tow Cop Cars in pursuit =       $30.00
+
+Bonus Points for Level 1:
+Bankersfield = $93.00           Flat Broke = $279.00
+Silver Dollar = $186.00         Heistown = $372.00
+
+Add $372.00 per level to these values for the other sevel levels.
+
 
  For the environment:
 BattleZoneNoFrameskip-v4
