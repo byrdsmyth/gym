@@ -237,6 +237,17 @@ JamesbondNoFrameskip-v4
 Could not open ../envImages/JamesbondNoFrameskip-v4.png for writing
 Available actions are:
 ['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
+ Targets	Points
+Diamond	50
+Frogman	200
+Space shuttle	200
+Poison bomb	100
+Submarine	200
+Torpedo	100
+Spinning satellite	500
+Rapid rocket	100
+Fire bomb	100
+Mission accomplished	5,000
 
  For the environment:
 JourneyEscapeNoFrameskip-v4
