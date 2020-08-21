@@ -149,6 +149,20 @@ CrazyClimberNoFrameskip-v4
 Could not open ../envImages/CrazyClimberNoFrameskip-v4.png for writing
 Available actions are:
 ['NOOP', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT']
+The value of your climbing points depends on the building you climb:
+
+Building 1             100 points/row
+Building 2             200 points/row
+Building 3             300 points/row
+Building 4             400 points/row
+Bonus points are like a timer - they measure the speed at which you climb a building. When you start climbing a new building, the maximum number of bonus points appears on the screen, above your score (see Figure 4). For every ten seconds you climb, your bonus points decreases by 100 points. When you reach the top, you must grab the helicopter within 30 seconds, or you'll lose all your bonus points. You should grab the helicopter as fast as possible, since your bonus points continue to decrease until you touch the helicopter runner.
+
+The maximum value of your bonus points also depends on which building you are on:
+
+Building 1              100,000 points
+Building 2              200,000 points
+Building 3              300,000 points
+Building 4              400,000 points
 
  For the environment:
 DemonAttackNoFrameskip-v4
