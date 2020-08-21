@@ -20,6 +20,16 @@ AlienNoFrameskip-v4
 Could not open ../envImages/AlienNoFrameskip-v4.png for writing
 Available actions are:
 ['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE', 'UPRIGHTFIRE', 'UPLEFTFIRE', 'DOWNRIGHTFIRE', 'DOWNLEFTFIRE']
+ POINT CHART:
+
+OBJECT                  POINTS  PRIZES          POINTS
+Eggs                            10              Rocket          500
+Pulsar                  100             Saturn          1,000
+1st Alien                       500             Star Ship               2,000
+2nd Alien                       1,000   1st Surprise            2,000-3,000
+3rd Alien                       2,000   2nd Surprise    3,000
+Completed Screen                1               3rd Surprise            5,000
+
 
  For the environment:
 AmidarNoFrameskip-v4
