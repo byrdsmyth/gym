@@ -372,6 +372,12 @@ WizardOfWorNoFrameskip-v4
 Could not open ../envImages/WizardOfWorNoFrameskip-v4.png for writing
 Available actions are:
 ['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE']
+ Point values:
+Blue Burwors			100 points
+Yellow Garwors			200 points
+Red Thorwors			500 points
+Worluk				1000 points plus double score in the next dungeon
+Wizard of Wor			2500 points
 
  For the environment:
 YarsRevengeNoFrameskip-v4
