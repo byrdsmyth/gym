@@ -74,6 +74,11 @@ Silver Dollar = $186.00         Heistown = $372.00
 
 Add $372.00 per level to these values for the other sevel levels.
 
+LEFT DIFFICULTY SWITCH A:  The cops are smart and will always find you.
+LEFT DIFFICULTY SWITCH B:  The cops are not as smart and go in a more
+set pattern.
+RIGHT DIFFICULTY SWITCH A:  Banks appear in a random order.
+RIGHT DIFFICULTY SWITCH B:  Banks appear in a set order.
 
  For the environment:
 BattleZoneNoFrameskip-v4
