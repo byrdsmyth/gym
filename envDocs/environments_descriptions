@@ -23,12 +23,20 @@ Available actions are:
  POINT CHART:
 
 OBJECT                  POINTS  PRIZES          POINTS
-Eggs                            10              Rocket          500
-Pulsar                  100             Saturn          1,000
-1st Alien                       500             Star Ship               2,000
-2nd Alien                       1,000   1st Surprise            2,000-3,000
-3rd Alien                       2,000   2nd Surprise    3,000
-Completed Screen                1               3rd Surprise            5,000
+Eggs                    10      Rocket          500
+Pulsar                  100     Saturn          1,000
+1st Alien               500     Star Ship       2,000
+2nd Alien               1,000   1st Surprise    2,000-3,000
+3rd Alien               2,000   2nd Surprise    3,000
+Completed Screen        1       3rd Surprise    5,000
+
+Left Difficulty Switch A: Aliens travel in random order about the screen.
+
+Left Difficulty Switch B: Aliend travel in fixed patterns about the screen.
+
+Right Difficult Switch B: Capturing a Pulsar has standard effect on the Aliens.
+
+Right Difficulty Switch A: Capturing a Pulsar has no effect on the Aliens.
 
 
  For the environment:
@@ -36,6 +44,10 @@ AmidarNoFrameskip-v4
 Could not open ../envImages/AmidarNoFrameskip-v4.png for writing
 Available actions are:
 ['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPFIRE', 'RIGHTFIRE', 'LEFTFIRE', 'DOWNFIRE']
+ Rewards:
+VERTICAL LINES: 1 point
+Coloring an entire box ....... 50 points
+Catching a chicken ........... 100 points
 
  For the environment:
 AssaultNoFrameskip-v4
@@ -48,6 +60,22 @@ AsterixNoFrameskip-v4
 Could not open ../envImages/AsterixNoFrameskip-v4.png for writing
 Available actions are:
 ['NOOP', 'UP', 'RIGHT', 'LEFT', 'DOWN', 'UPRIGHT', 'UPLEFT', 'DOWNRIGHT', 'DOWNLEFT']
+OBJECT (for Asterix)	POINTS
+Cauldron:	50
+Helmet:	100
+Shield:	200
+Lamp:	300
+OBJECT (for Obelix)	POINTS
+Apple:	400
+Fish:	500
+Wild Boar Leg:	500
+Mug:	500
+Surprise Object:	500
+
+You earn points for every object touched, and a bonus life at 10,000, 30,000, 50,000, 80,000, 110,000 points, and every 40,000 points thereafter.
+A surprise object appears after the third time Obelix collects mugs - if you can stay alive that long!
+
+The DIFFICULTY switches are not used in this game.
 
  For the environment:
 AsteroidsNoFrameskip-v4
